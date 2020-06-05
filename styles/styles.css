@@ -138,7 +138,7 @@ span {
 #Banner {
   position: relative;
   height: 100vh;
-  background: linear-gradient(242deg, #000A68, #000A68 64%, #00C4EE);
+  background: linear-gradient(290deg, #00C4EE, #00C4EE 23%, #000A68);
   color: #fff;
 }
 #Banner .content-wrap {
@@ -237,18 +237,16 @@ span {
   color: #fff;
   margin: 0;
 }
-#Services .service-box .yellow {
+#Services .service-box .greenish {
+  background-color: #28d163;
+}
+#Services .service-box .blue {
   background-color: #02b3e4;
 }
-#Services .service-box .orange {
-  background-color: #02ccba;
+#Services .service-box .darkblue {
+  background-color: #000A68;
 }
-#Services .service-box .red {
-  background-color: #02BED2;
-}
-#Services .service-box .grey {
-  background-color: #47c6d0;
-}
+
 #Services .service-box:hover .service-icon {
   opacity: 0;
   -webkit-transform: translateY(-110px) rotateX(90deg);
@@ -559,6 +557,16 @@ footer.footer p.small a:hover, footer.footer p.small a.focus {
 }
 #Contact .address-block span {
 	text-transform: none;
+}
+
+.bulleted-list {
+  width: 370px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+li {
+  padding-left: 10px;
 }
 
 /* Styles Begins */
